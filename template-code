@@ -1,0 +1,1050 @@
+{
+    /* THIS IS THE TEMPLATE CODE. YOU NEED TO EDIT THIS FORM TO YOUR LIKING. 
+Please see the standard work through the Landing Page Kit. */
+}
+
+import React, { useEffect } from "react"
+import { Helmet } from "react-helmet"
+
+export default function Form(props) {
+    useEffect(() => {
+        const scriptUrls = [
+            "https://download.fluke.com/Fluke/eloqua/scripts/jquery-latest.min.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/elqForm.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/GA.js",
+            "https://content.fluke.com/Eloqua/lptemplates/js/validate.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/dropdown-v3.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/GDPRConsent_IG.js",
+        ]
+
+        scriptUrls.forEach((src) => {
+            const script = document.createElement("script")
+            script.src = src
+            script.type = "text/javascript"
+            document.body.appendChild(script)
+
+            return () => {
+                document.body.removeChild(script)
+            }
+        })
+    }, [])
+
+    function submitForm(arg0: any): void {
+        throw new Error("Function not implemented.")
+    }
+
+    return (
+        <>
+            <Helmet>
+                <meta name="opco" content="IG" />
+                <meta name="lang" content="eng" />
+            </Helmet>
+            <div>
+                <form
+                    method="post"
+                    name="dream"
+                    id="form398"
+                    onSubmit={() => submitForm(this)}
+                    action="https://s1182545284.t.eloqua.com/e/f2"
+                    className="elq-form"
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "left",
+                        fontFamily: "Noto Sans, sans-serif",
+                        fontSize: "16px",
+                        color: "black",
+                        padding: "24px",
+                        backgroundColor: "white",
+                        borderRadius: "8px",
+                        boxShadow: "0 0 8px 0 rgba(0, 0, 0, 0.0)",
+                    }}
+                >
+                    <input value="dream" type="hidden" name="elqFormName" />
+                    <input value="1182545284" type="hidden" name="elqSiteId" />
+                    <input name="elqCampaignId" type="hidden" />
+                    {/* Hidden Variables */}
+                    <input
+                        type="hidden"
+                        name="eloquaStatus"
+                        id="eloquaStatus"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMAssetID"
+                        id="iGLastMSCRMAssetID"
+                    />
+                    <input
+                        type="hidden"
+                        name="emlReciptAddress"
+                        id="emlReciptAddress"
+                    />
+                    <input type="hidden" name="emlSubLine" id="emlSubLine" />
+                    <input
+                        type="hidden"
+                        name="addToCampaign"
+                        id="addToCampaign"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMDistributorAccountGUID"
+                        id="iGLastMSCRMDistributorAccountGUID"
+                    />
+                    <input
+                        type="hidden"
+                        name="redir"
+                        id="fe18658"
+                        value="https://newproducts.fluke.com/thankyou"
+                    />
+                    <input
+                        type="hidden"
+                        name="sessionID"
+                        id="fe18746"
+                        value="Demo1"
+                    />
+                    <input
+                        type="hidden"
+                        name="brandInterest"
+                        id="fe18844"
+                        value="IG"
+                    />
+
+                    <input
+                        type="hidden"
+                        name="softoptin"
+                        id="fe18631"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="consentLanguage"
+                        id="fe18632"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="privacypolicyversion"
+                        id="fe18650"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="KRconsentlanguage"
+                        id="fe18651"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="KRconsentlanguage"
+                        id="fe18651"
+                        value=""
+                    />
+                    <input type="hidden" name="personalconsent" id="fe18652" />
+
+                    <input
+                        type="hidden"
+                        name="preferredLanguage"
+                        id="langSelect"
+                        value="eng"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMProductGUID"
+                        id="iGLastMSCRMProductGUID"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastReportingProductFamily"
+                        id="iGLastReportingProductFamily"
+                    />
+                    <input
+                        type="hidden"
+                        name="productLineType"
+                        id="productLineType"
+                    />
+                    <input
+                        type="hidden"
+                        name="sharedContactList"
+                        id="sharedContactList"
+                    />
+                    {/* URL Variables DO NOT TOUCH*/}
+                    <input type="hidden" name="utmAdGroup" id="utmAdGroup" />
+                    <input type="hidden" name="utmAdName" id="utmAdName" />
+                    <input type="hidden" name="utmCampaign" id="utmCampaign" />
+                    <input type="hidden" name="utmContent" id="utmContent" />
+                    <input type="hidden" name="utmDomain" id="utmDomain" />
+                    <input type="hidden" name="utmKW" id="utmKW" />
+                    <input type="hidden" name="utmLP" id="utmLP" />
+                    <input type="hidden" name="utmMedium" id="utmMedium" />
+                    <input type="hidden" name="utmSize" id="utmSize" />
+                    <input type="hidden" name="utmSource" id="utmSource" />
+                    <input type="hidden" name="utmTerm" id="utmTerm" />
+                    <input type="hidden" name="emlConfirm" id="emlConfirm" />
+                    <input type="hidden" name="dcUniqueID" id="dcUniqueID" />
+                    <input
+                        type="hidden"
+                        name="elqCampaignId"
+                        id="elqCampaignId"
+                    />
+                    <input type="hidden" name="ixMarcom" id="ixMarcom" />
+                    <input type="hidden" name="ixKitCodes" id="ixKitCodes" />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMCampaignID"
+                        id="iGLastMSCRMCampaignID"
+                    />
+                    <input
+                        type="hidden"
+                        name="CampaignResponseActivity"
+                        id="CampaignResponseActivity"
+                    />
+                    {/* <input type="hidden" name="country" id="countryone" value="US"> */}
+                    {/* Editable IX Variables */}
+                    <input
+                        type="hidden"
+                        name="ixDear"
+                        id="ixDear"
+                        value="Dear Mr./Mrs."
+                    />
+                    <input
+                        type="hidden"
+                        name="ixAccountNo"
+                        id="ixAccountNo"
+                        value="Account Default Value"
+                    />
+                    <input type="hidden" name="ixGender" id="ixGender" />
+                    <input type="hidden" name="ixMailOk" id="ixMailOk" />
+                    {/* IX Variables for EUR Lit Fulfilment - DO NOT TOUCH */}
+                    <input type="hidden" name="ixCompany1" id="ixCompany1" />
+                    <input type="hidden" name="ixFirstName" id="ixFirstName" />
+                    <input type="hidden" name="ixLastName" id="ixLastName" />
+                    <input type="hidden" name="ixAddress1" id="ixAddress1" />
+                    <input type="hidden" name="ixAddress2" id="ixAddress2" />
+                    <input type="hidden" name="ixZip" id="ixZip" />
+                    <input type="hidden" name="ixCity" id="ixCity" />
+                    <input
+                        type="hidden"
+                        name="ixCountry"
+                        id="ixCountry"
+                        value=""
+                    />
+                    <input type="hidden" name="ixLanguage" id="ixLanguage" />
+                    <input type="hidden" name="ixState" id="ixState" />
+                    <input type="hidden" name="ixTitle" id="ixTitle" />
+                    {/* Variables for Reverse Logic - DO NOT TOUCH */}
+                    <input
+                        type="hidden"
+                        name="iGBulkEmailOptOut"
+                        id="iGBulkEmailOptOut"
+                    />
+
+                    {/* Form Fields : BEGIN */}
+                    <p style={{ fontSize: "18px", fontWeight: "bold" }}>
+                        We encourage you to tell us more about your interest in
+                        this product by taking the short survey below.
+                    </p>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18623">
+                            Email*
+                        </label>
+                        <input
+                            id="fe18623"
+                            type="email"
+                            name="emailAddress"
+                            className="elqField elq-item-input"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18624">
+                            First Name*
+                        </label>
+                        <input
+                            id="fe18624"
+                            type="text"
+                            name="firstName"
+                            className="elqField elq-item-input"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18625">
+                            Last Name*
+                        </label>
+                        <input
+                            id="fe18625"
+                            type="text"
+                            name="lastName"
+                            className="elqField elq-item-input"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18626">
+                            Business Phone*
+                        </label>
+                        <input
+                            id="fe18626"
+                            type="text"
+                            name="busPhone"
+                            className="elqField elq-item-input"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18627">
+                            Company*
+                        </label>
+                        <input
+                            id="fe18627"
+                            name="company"
+                            className="elqField elq-item-input"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="countryone">
+                            Country*
+                        </label>
+                        <select
+                            id="countryone"
+                            name="country"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                                fontFamily: "Noto Sans, sans serif",
+                            }}
+                        >
+                            <option value="base">Please Select</option>
+                        </select>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18659">
+                            $Contact Me
+                        </label>
+                        <div id="fe18659">
+                            <input
+                                type="radio"
+                                id="radio-Yes_ayobz1ga"
+                                value="Yes"
+                                name="contactMe"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_ayobz1ga"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_k9uz15ye"
+                                value="No"
+                                name="contactMe"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_k9uz15ye"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18660">
+                            $Demo Request
+                        </label>
+                        <div id="fe18660">
+                            <input
+                                type="radio"
+                                id="radio-Yes_26pyjo2i"
+                                value="Yes"
+                                name="demoRequest"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_26pyjo2i"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_4gcm6byr"
+                                value="No"
+                                name="demoRequest"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_4gcm6byr"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18647">
+                            $Price Inquiry
+                        </label>
+                        <div id="fe18647">
+                            <input
+                                type="radio"
+                                id="radio-Yes_w5nu5d8d"
+                                value="Yes"
+                                name="priceInquiry"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_w5nu5d8d"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_r2keipxe"
+                                value="No"
+                                name="priceInquiry"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_r2keipxe"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18661">
+                            $Beta Tester
+                        </label>
+                        <div id="fe18661">
+                            <input
+                                type="radio"
+                                id="radio-Yes_jzk28vyp"
+                                value="Yes"
+                                name="betaTester"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_jzk28vyp"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_q7jz9bm4h"
+                                value="No"
+                                name="betaTester"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_q7jz9bm4h"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18663">
+                            $Check this box to join an email waitlist to receive
+                            updates about this product.
+                        </label>
+                        <div id="fe18663">
+                            <input
+                                type="radio"
+                                id="radio-Yes_0m2ssjex"
+                                value="Yes"
+                                name="mailingList"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_0m2ssjex"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_iqc2hea"
+                                value="No"
+                                name="mailingList"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_iqc2hea"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18664">
+                            $Preorder
+                        </label>
+                        <div id="fe18664">
+                            <input
+                                type="radio"
+                                id="radio-Yes_n9haedxn"
+                                value="Yes"
+                                name="preOrder"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_n9haedxn"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_mympj83m"
+                                value="No"
+                                name="preOrder"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_mympj83m"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="fe18671">
+                            $Decision Maker
+                        </label>
+                        <div id="fe18671">
+                            <input
+                                type="radio"
+                                id="radio-Yes_kgzus6yj"
+                                value="Yes"
+                                name="decisionMaker"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_kgzus6yj"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_09475ne"
+                                value="No"
+                                name="decisionMaker"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_09475ne"
+                            >
+                                No
+                            </label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18662">$Radio Buttons1</label>
+                        <div id="fe18662">
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-First_6gub7vxl"
+                                    value="First"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-First_6gub7vxl">
+                                    $First
+                                </label>
+                                <br />
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-Second_my2927a"
+                                    value="Second"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-Second_my2927a">
+                                    $Second
+                                </label>
+                                <br />
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-Third_mvxx9rmq"
+                                    value="Third"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-Third_mvxx9rmq">
+                                    $Third
+                                </label>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18665">$Radio Buttons2</label>
+                        <div id="fe18665">
+                            <input
+                                type="radio"
+                                id="radio-First_dxf983t"
+                                value="First"
+                                name="radioButtons2"
+                            />
+                            <label htmlFor="radio-First_dxf983t">$First</label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Second_gozmrfwl"
+                                value="Second"
+                                name="radioButtons2"
+                            />
+                            <label htmlFor="radio-Second_gozmrfwl">
+                                $Second
+                            </label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Third_5s1m5w24"
+                                value="Third"
+                                name="radioButtons2"
+                            />
+                            <label htmlFor="radio-Third_5s1m5w24">$Third</label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18666">$Radio Buttons3</label>
+                        <div id="fe18666">
+                            <input
+                                type="radio"
+                                id="radio-First_11rkkqwd"
+                                value="First"
+                                name="radioButtons3"
+                            />
+                            <label htmlFor="radio-First_11rkkqwd">$First</label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Second_vw9zz357"
+                                value="Second"
+                                name="radioButtons3"
+                            />
+                            <label htmlFor="radio-Second_vw9zz357">
+                                $Second
+                            </label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Third_ogmidvca"
+                                value="Third"
+                                name="radioButtons3"
+                            />
+                            <label htmlFor="radio-Third_ogmidvca">$Third</label>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18667">$Radio Buttons4</label>
+                        <div id="fe18667">
+                            <input
+                                type="radio"
+                                id="radio-First_cqrhvstg"
+                                value="First"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-First_cqrhvstg">$First</label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Second_k0l28vfb"
+                                value="Second"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-Second_k0l28vfb">
+                                $Second
+                            </label>
+                            <br />
+
+                            <input
+                                type="radio"
+                                id="radio-Third_d3gg0md"
+                                value="Third"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-Third_d3gg0md">$Third</label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18668">$Likelihood to Purchase</label>
+                        <div
+                            id="fe18668"
+                            style={{
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center",
+                                flexWrap: "wrap",
+                                gap: "10px",
+                            }}
+                        >
+                            <input
+                                type="radio"
+                                id="radio-VeryLikely_7gc849l"
+                                value="Very Likely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-VeryLikely_7gc849l">
+                                Very Likely
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-Likely_o7o9b16"
+                                value="Likely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-Likely_o7o9b16">Likely</label>
+
+                            <input
+                                type="radio"
+                                id="radio-Neutral_x8rb9rf"
+                                value="Neutral"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-Neutral_x8rb9rf">
+                                Neutral
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-Unlikely_ga2tlmop"
+                                value="Unlikely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-Unlikely_ga2tlmop">
+                                Unlikely
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-VeryUnlikely_1ajntopi"
+                                value="Very Unlikely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-VeryUnlikely_1ajntopi">
+                                Very Unlikely
+                            </label>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18669">$Product Ranking</label>
+                        <div
+                            id="fe18669"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap",
+                                gap: "10px",
+                                justifyContent: "space-between",
+                            }}
+                        >
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-1_98d1i6sb"
+                                    value="1"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-1_98d1i6sb">1</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-2_3uhha7r"
+                                    value="2"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-2_3uhha7r">2</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-3_6e4qu02h"
+                                    value="3"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-3_6e4qu02h">3</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-4_p4fe95fr"
+                                    value="4"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-4_p4fe95fr">4</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-5_fvzo4obn"
+                                    value="5"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-5_fvzo4obn">5</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-6_p8hchd4m"
+                                    value="6"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-6_p8hchd4m">6</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-7_7yk2j6b"
+                                    value="7"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-7_7yk2j6b">7</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-8_bki6err8"
+                                    value="8"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-8_bki6err8">8</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-9_k9szwgbj"
+                                    value="9"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-9_k9szwgbj">9</label>
+                            </div>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="radio-10_2tty1xf7"
+                                    value="10"
+                                    name="productRanking"
+                                />
+                                <label htmlFor="radio-10_2tty1xf7">10</label>
+                            </div>
+                        </div>
+                        <div
+                            style={{ textAlign: "center", fontSize: "0.75rem" }}
+                        >
+                            1 = low, 10 = high
+                        </div>
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18649">$Custom Question 1</label>
+                        <textarea
+                            name="customquestion1"
+                            id="fe18649"
+                            style={{ width: "100%", fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18653">$Custom Question 2</label>
+                        <textarea
+                            name="customquestion2"
+                            id="fe18653"
+                            style={{ width: "100%", fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18654">$Custom Question 3</label>
+                        <textarea
+                            name="customquestion3"
+                            id="fe18654"
+                            style={{ width: "100%", fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18657">$Large Custom Question</label>
+                        <textarea
+                            name="largeCustomQuestion"
+                            id="fe18657"
+                            style={{ width: "100%", fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <table
+                        id="ConsentCheck"
+                        style={{ display: "none", marginLeft: "0px" }}
+                    >
+                        <tbody>
+                            <tr>
+                                <td
+                                    style={{
+                                        verticalAlign: "top",
+                                        paddingTop: "3px",
+                                    }}
+                                >
+                                    <input
+                                        type="checkbox"
+                                        style={{
+                                            marginTop: "0px",
+                                            marginRight: "5px",
+                                        }}
+                                        name="consentcheckbox"
+                                        id="fe18630"
+                                        value="Yes"
+                                    />
+                                </td>
+                                <td>
+                                    <span
+                                        id="ConsentText"
+                                        htmlFor="consentCheckbox"
+                                        style={{ fontSize: "12px" }}
+                                    ></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div className="form-group">
+                        <p style={{ marginTop: "10px" }}>
+                            <input
+                                id="submit"
+                                type="submit"
+                                className="elqSubmit"
+                                value="Submit"
+                                style={{
+                                    fontSize: "16px",
+                                    fontFamily: "Noto Sans, sans serif",
+                                    width: "100%",
+                                    padding: "16px",
+                                    backgroundColor: "#FFC20E",
+                                    color: "black",
+                                    fontWeight: "bold",
+                                    border: "none",
+                                    borderRadius: "4px",
+                                }}
+                            />
+                            <style>{`
+                                .elqSubmit:active {
+                                    background-color: #E4AA00; 
+                                }
+                            `}</style>
+                        </p>
+                    </div>
+                    <br />
+
+                    <p>
+                        <a
+                            href="http://en-us.fluke.com/site/privacy?elqTrackId=33512df3786f4ba3a73ce2c28b0e4605"
+                            target="_blank"
+                        >
+                            Your privacy is important to us
+                        </a>
+                    </p>
+                    {/* Form Fields : END */}
+                </form>
+            </div>
+        </>
+    )
+}
