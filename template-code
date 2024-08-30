@@ -245,6 +245,7 @@ export default function Form(props) {
                     </p>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18623">
                             Email*
@@ -264,6 +265,7 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18624">
@@ -285,6 +287,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18625">
                             Last Name*
@@ -304,6 +307,7 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18626">
@@ -325,6 +329,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18627">
                             Company*
@@ -343,6 +348,7 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="countryone">
@@ -365,6 +371,43 @@ export default function Form(props) {
                         </select>
                     </div>
                     <br />
+
+
+                    <div className="form-group">
+                        <label>I'm interested in: </label>
+                        
+                        <div id="formElement19">
+                            <input type="checkbox" name="productNotifications" id="fe18869" />
+                            <label htmlFor="fe18869">Would you like to receive product notifications</label>
+                        </div>
+                        
+                        <div id="formElement20">
+                            <input type="checkbox" name="scheduleCall" id="fe18870" />
+                            <label htmlFor="fe18870">Would you like to schedule a call with a product expert</label>
+                        </div>
+                        
+                        <div id="formElement21">
+                            <input type="checkbox" name="preorderEarlyAdopter" id="fe18871" />
+                            <label htmlFor="fe18871">Would you like to be an early adopter or pre-order this product</label>
+                        </div>
+                        
+                        <div id="formElement22">
+                            <input type="checkbox" name="onsitePrototypeTesting" id="fe18872" />
+                            <label htmlFor="fe18872">Interest in hosting onsite with Fluke to test prototypes</label>
+                        </div>
+                        
+                          <div id="formElement23">
+                            <input type="checkbox" name="waitlist" id="fe18873" />
+                            <label htmlFor="fe18873">Want to join a waitlist for this product</label>
+                          </div>
+                        
+                        <div id="formElement24">
+                            <input type="checkbox" name="productResearchInterest" id="fe18874" />
+                            <label htmlFor="fe18874">Wish to be contacted for future product research</label>
+                        </div>
+                    </div>
+                    <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18659">
@@ -401,6 +444,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18660">
                             $Demo Request
@@ -435,6 +479,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18647">
@@ -471,6 +516,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18661">
                             $Beta Tester
@@ -505,6 +551,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18663">
@@ -542,6 +589,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18664">
                             $Preorder
@@ -577,6 +625,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18671">
                             $Decision Maker
@@ -611,6 +660,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label htmlFor="fe18662">$Radio Buttons1</label>
@@ -655,6 +705,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label htmlFor="fe18665">$Radio Buttons2</label>
                         <div id="fe18665">
@@ -690,6 +741,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label htmlFor="fe18666">$Radio Buttons3</label>
                         <div id="fe18666">
@@ -723,6 +775,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label htmlFor="fe18667">$Radio Buttons4</label>
@@ -758,6 +811,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label htmlFor="fe18668">$Likelihood to Purchase</label>
@@ -821,6 +875,7 @@ export default function Form(props) {
                         </div>
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label htmlFor="fe18669">$Product Ranking</label>
@@ -932,6 +987,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label htmlFor="fe18649">$Custom Question 1</label>
                         <textarea
@@ -941,6 +997,7 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
+
 
                     <div className="form-group">
                         <label htmlFor="fe18653">$Custom Question 2</label>
@@ -952,6 +1009,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label htmlFor="fe18654">$Custom Question 3</label>
                         <textarea
@@ -962,6 +1020,7 @@ export default function Form(props) {
                     </div>
                     <br />
 
+
                     <div className="form-group">
                         <label htmlFor="fe18657">$Large Custom Question</label>
                         <textarea
@@ -971,6 +1030,7 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
+
 
                     <table
                         id="ConsentCheck"
